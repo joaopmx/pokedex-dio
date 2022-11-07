@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5FBFB;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.content h1 {
+    color: #313358;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+
